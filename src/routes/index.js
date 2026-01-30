@@ -1,3 +1,5 @@
 import { getAllListingRoute } from "./getAllListing";
 
-export default [getAllListingRoute];
+import { getListingRoute } from "./getListing";
+
+export default [getAllListingRoute, getListingRoute];
