@@ -2,8 +2,8 @@ import mysql from 'mysql';
 
 const connection = mysql.createConnection({
     host: 'localhost',
-    user: 'hapi-server',
-    password: 'abc123!',
+    user: 'alfred',
+    password: '05Alex08Isa@',
     database: 'buy-and-sale'
 });
 
